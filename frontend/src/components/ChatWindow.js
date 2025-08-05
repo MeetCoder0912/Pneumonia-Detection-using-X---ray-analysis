@@ -31,7 +31,7 @@ function ChatWindow({ analysisContext }) {
     setInputValue('');
 
     try {
-      const response = await fetch('http://localhost:5000/api/chat', {
+      const response = await fetch('https://pneumonia-detection-using-x-ray-analysis-2u99.onrender.com/chat', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
