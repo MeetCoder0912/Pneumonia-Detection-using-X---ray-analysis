@@ -1,0 +1,38 @@
+<!-- /frontend/public/index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI X-Ray Diagnosis Assistant</title>
+    
+    <!-- We are using Tailwind CSS for styling. It's a modern utility-first CSS framework -->
+    <!-- that makes it easy to build good-looking, responsive designs quickly. -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- We are using the "Inter" font from Google Fonts for a clean, modern look. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* Applying the Inter font to the whole page */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    
+    <!-- This is the main container for our application. -->
+    <!-- We will use JavaScript to inject our React components into this div. -->
+    <div id="root">
+        <!-- Application content will be loaded here by React -->
+        <div class="p-8 text-center text-gray-600">
+            <h1 class="text-2xl font-bold">Loading Application...</h1>
+            <p class="mt-2">If you see this message for a long time, please ensure JavaScript is enabled in your browser.</p>
+        </div>
+    </div>
+    
+</body>
+</html>
