@@ -4,6 +4,6 @@ Pillow==10.4.0
 python-dotenv==1.0.1
 pydicom==2.4.4
 numpy==1.26.4
-# Changed to a more compatible version for Render
-tensorflow==2.15.0
+# Removed the specific version to let Render find the best compatible one
+tensorflow
 google-generativeai==0.7.1
